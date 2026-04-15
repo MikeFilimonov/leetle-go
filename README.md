@@ -9,7 +9,7 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 
 | Difficulty | Total Solved |
 | :--- | :--- |
-| 🟢 Easy | 0 |
+| 🟢 Easy | 1 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
 | **Total** | **0** |
