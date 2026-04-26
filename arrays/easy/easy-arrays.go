@@ -1,11 +1,11 @@
-package main
+package arrays
 
 import (
 	"fmt"
 	"slices"
 )
 
-func main() {
+func TwoSum() {
 
 	input := []int{2, 7, 11, 15}
 
