@@ -2,14 +2,14 @@ package leetstrings
 
 func RomanToInt(input string) int {
 
-	rates := make(map[rune]int)
-	rates['I'] = 1
-	rates['V'] = 5
-	rates['X'] = 10
-	rates['L'] = 50
-	rates['C'] = 100
-	rates['D'] = 500
-	rates['M'] = 1000
+	rates := make([]int, 89)
+	rates[int('I')] = 1
+	rates[int('V')] = 5
+	rates[int('X')] = 10
+	rates[int('L')] = 50
+	rates[int('C')] = 100
+	rates[int('D')] = 500
+	rates[int('M')] = 1000
 
 	result := 0
 	inputLength := len(input)
