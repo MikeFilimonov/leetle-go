@@ -10,9 +10,9 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 | Difficulty | Total Solved |
 | :--- | :--- |
 | 🟢 Easy | 1 |
-| 🟡 Medium | 0 |
+| 🟡 Medium | 1 |
 | 🔴 Hard | 0 |
-| **Total** | **0** |
+| **Total** | **2** |
 
 ## 🗂️ Table of Contents
 * [Array](#array)
@@ -26,7 +26,8 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 ### Array
 | # | Title | Solution | Difficulty | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Two sum](https://leetcode.com/problems/two-sum/) | [Go](./array/two-sum/main.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
+| 1 | [Two sum](https://leetcode.com/problems/two-sum/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
+| 1 | [Container with most water](https://leetcode.com/problems/container-with-most-water/) | [Go](./arrays/medium/medium-arrays.go) |  Medium | $O(n^2)$ | $O(n)$ |
 
 ## 📚 Resources & Patterns
 

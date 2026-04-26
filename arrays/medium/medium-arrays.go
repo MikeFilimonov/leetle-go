@@ -1,4 +1,4 @@
-package arrays
+package leetarrays
 
 func LargestArea(input []int) int {
 
