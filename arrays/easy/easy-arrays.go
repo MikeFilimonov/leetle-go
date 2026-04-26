@@ -1,19 +1,10 @@
 package leetarrays
 
 import (
-	"fmt"
 	"slices"
 )
 
-func TwoSum() {
-
-	input := []int{2, 7, 11, 15}
-
-	fmt.Println("the indices are: ", twoSum(input, 9))
-
-}
-
-func twoSum(input []int, target int) []int {
+func TwoSum(input []int, target int) []int {
 
 	result := make([]int, 0)
 
