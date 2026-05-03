@@ -12,7 +12,7 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 | 🟢 Easy | 2 |
 | 🟡 Medium | 2 |
 | 🔴 Hard | 0 |
-| **Total** | **3** |
+| **Total** | **4** |
 
 ## 🗂️ Table of Contents
 * [Array](#array)
