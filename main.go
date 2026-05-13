@@ -4,6 +4,8 @@ import (
 	"fmt"
 	easyArrays "leetle-go/arrays/easy"
 	mediumArrays "leetle-go/arrays/medium"
+	easyHashmaps "leetle-go/hashmaps/easy"
+	mediumHashmaps "leetle-go/hashmaps/medium"
 	easyStrings "leetle-go/strings/easy"
 	mediumStrings "leetle-go/strings/meduim"
 )
@@ -28,6 +30,15 @@ func easyRunner() {
 	input := "MCMXCIV"
 	result := easyStrings.RomanToInt(input)
 	fmt.Printf(defaultTemplate, input, result)
+
+	fmt.Println("Linked list cycle")
+	node := easyHashmaps.ListNode{
+		Val:  9,
+		Next: nil,
+	}
+
+	hasCycle := easyHashmaps.FloydCycleDetection(&node)
+	fmt.Printf(defaultTemplate, input, hasCycle)
 }
 
 func mediumRunner() {
@@ -41,4 +52,10 @@ func mediumRunner() {
 	initialData := "abbjahdbls"
 	result = mediumStrings.LengthOfLongestSubstring(initialData)
 	fmt.Printf(defaultTemplate, input, result)
+
+	fmt.Println("int to Roman")
+	number := 2029
+	roman := mediumHashmaps.IntToRoman(number)
+	fmt.Printf(defaultTemplate, roman, result)
+
 }
