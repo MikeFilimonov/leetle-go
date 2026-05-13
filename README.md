@@ -26,11 +26,11 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 ### Array
 | # | Title | Solution | Difficulty | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Two sum](https://leetcode.com/problems/two-sum/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
-| 2 | [Container with most water](https://leetcode.com/problems/container-with-most-water/) | [Go](./arrays/medium/medium-arrays.go) | 🟡 Medium | $O(n)$ | $O(n)$ |
-| 3 | [Roman to int](https://leetcode.com/problems/roman-to-integer/) | [Go](./strings/easy/easy-strings.go) | 🟢 Easy | $O(1)$ | $O(n)$ |
+| 1 | [Two sum](https://leetcode.com/problems/two-sum/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(n^2)$ | $O(1)$ |
+| 2 | [Container with most water](https://leetcode.com/problems/container-with-most-water/) | [Go](./arrays/medium/medium-arrays.go) | 🟡 Medium | $O(n)$ | $O(1)$ |
+| 3 | [Roman to int](https://leetcode.com/problems/roman-to-integer/) | [Go](./strings/easy/easy-strings.go) | 🟢 Easy | $O(1)$ | $O(1)$ |
 | 4 | [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Go](./strings/medium/medium-strings.go) | 🟡 Medium | $O(n)$ | $O(n)$ |
-| 5 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [Go](./hashmaps/easy/easy-hashmaps.go) | 🟡 Medium | $O(1)$ | $O(n)$ |
+| 5 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [Go](./hashmaps/easy/easy-hashmaps.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
 | 6 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](./hashmaps/medium/medium-hashmaps.go) | 🟡 Medium | $O(1)$ | $O(n)$ |
 
 ## 📚 Resources & Patterns
