@@ -31,7 +31,7 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 | 3 | [Roman to int](https://leetcode.com/problems/roman-to-integer/) | [Go](./strings/easy/easy-strings.go) | 🟢 Easy | $O(1)$ | $O(1)$ |
 | 4 | [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Go](./strings/medium/medium-strings.go) | 🟡 Medium | $O(n)$ | $O(n)$ |
 | 5 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [Go](./hashmaps/easy/easy-hashmaps.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
-| 6 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](./hashmaps/medium/medium-hashmaps.go) | 🟡 Medium | $O(1)$ | $O(n)$ |
+| 6 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](./hashmaps/medium/medium-hashmaps.go) | 🟡 Medium | $O(1)$ | $O(1)$ |
 
 ## 📚 Resources & Patterns
 
