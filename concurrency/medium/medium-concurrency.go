@@ -4,15 +4,15 @@ type H2O struct {
 	h     chan struct{}
 	o     chan struct{}
 	water chan struct{}
-	done  chan struct{}
+	hDone chan struct{}
 }
 
 func NewH2O() *H2O {
 	result := &H2O{
 		h:     make(chan struct{}, 2),
 		o:     make(chan struct{}, 1),
-		water: make(chan struct{}, 2), // h releases water
-		done:  make(chan struct{}, 2),
+		water: make(chan struct{}, 2),
+		hDone: make(chan struct{}, 2),
 	}
 	return result
 }
@@ -23,7 +23,7 @@ func (w *H2O) Hydrogen(releaseHydrogen func()) {
 	<-w.water
 	// releaseHydrogen() outputs "H". Do not change or remove this line.
 	releaseHydrogen()
-	w.done <- struct{}{}
+	w.hDone <- struct{}{}
 
 }
 
@@ -38,7 +38,7 @@ func (w *H2O) Oxygen(releaseOxygen func()) {
 	w.water <- struct{}{}
 	w.water <- struct{}{}
 
-	<-w.done
-	<-w.done
+	<-w.hDone
+	<-w.hDone
 	<-w.o
 }
