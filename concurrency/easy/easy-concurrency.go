@@ -1,3 +1,5 @@
+package easyconcurrency
+
 type Foo struct {
 	starter  chan struct{}
 	follower chan struct{}
