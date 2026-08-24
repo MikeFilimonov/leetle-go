@@ -9,13 +9,14 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 
 | Difficulty | Total Solved |
 | :--- | :--- |
-| 🟢 Easy | 3 |
+| 🟢 Easy | 4 |
 | 🟡 Medium | 3 |
 | 🔴 Hard | 0 |
-| **Total** | **6** |
+| **Total** | **7** |
 
 ## 🗂️ Table of Contents
 * [Array](#array)
+* [Concurrency](#concurrency)
 * [Hash Table](#hash-table)
 * [String](#string)
 
@@ -32,6 +33,8 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 | 4 | [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Go](./strings/medium/medium-strings.go) | 🟡 Medium | $O(n)$ | $O(n)$ |
 | 5 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [Go](./hashmaps/easy/easy-hashmaps.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
 | 6 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](./hashmaps/medium/medium-hashmaps.go) | 🟡 Medium | $O(1)$ | $O(1)$ |
+| 7 | [Print in order](https://leetcode.com/problems/print-in-order/) | [Go](./concurrency/easy/easy-concurrency.go) | 🟢 Easy | $O(1)$ | $O(1)$ |
+| 8 | [Building H2O](https://leetcode.com/problems/building-h2o/) | [Go](./concurrency/medium/medium-concurrency.go) | 🟡 Medium | $O(1)$ | $O(1)$ |
 
 ## 📚 Resources & Patterns
 

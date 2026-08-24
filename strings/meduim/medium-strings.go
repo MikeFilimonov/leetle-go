@@ -1,6 +1,6 @@
 package leetstrings
 
-func lengthOfLongestSubstring(input string) int {
+func LengthOfLongestSubstring(input string) int {
 
 	if len(input) <= 1 {
 		return len(input)
@@ -8,26 +8,6 @@ func lengthOfLongestSubstring(input string) int {
 
 	validator := make(map[rune]int)
 	result := 0
-	// for i := 0; i < len(input); {
-
-	// 	input = input[i:]
-	// 	for k, v := range input {
-
-	// 		if previous, found := validator[v]; found {
-
-	// 			validator[v] = k
-	// 			result = max(k, result)
-	// 			i = previous + 1
-	// 			break
-
-	// 		}
-
-	// 		validator[v] = k
-
-	// 	}
-
-	// }
-
 	l := 0
 	for r := 0; r < len(input); r++ {
 
