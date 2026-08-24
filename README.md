@@ -1,6 +1,6 @@
 # 👨‍💻 LeetCode Solutions
 
-![LeetCode Status](https://img.shields.io/badge/Solved-6%2F1000-brightgreen.svg)
+![LeetCode Status](https://img.shields.io/badge/Solved-8%2F1000-brightgreen.svg)
 ![Language](https://img.shields.io/badge/Language-Golang-00ADD8.svg)
 
 My solutions to LeetCode problems, categorized by topics and difficulty, with time and space complexity analysis.
@@ -10,7 +10,7 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 | Difficulty | Total Solved |
 | :--- | :--- |
 | 🟢 Easy | 4 |
-| 🟡 Medium | 3 |
+| 🟡 Medium | 4 |
 | 🔴 Hard | 0 |
 | **Total** | **7** |
 
