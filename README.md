@@ -1,6 +1,6 @@
 # 👨‍💻 LeetCode Solutions
 
-![LeetCode Status](https://img.shields.io/badge/Solved-89%2F1000-brightgreen.svg)
+![LeetCode Status](https://img.shields.io/badge/Solved-9%2F1000-brightgreen.svg)
 ![Language](https://img.shields.io/badge/Language-Golang-00ADD8.svg)
 
 My solutions to LeetCode problems, categorized by topics and difficulty, with time and space complexity analysis.

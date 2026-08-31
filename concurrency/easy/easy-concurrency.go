@@ -23,7 +23,7 @@ func (f *Foo) First(printFirst func()) {
 func (f *Foo) Second(printSecond func()) {
 
 	<-f.starter
-	/// Do not change this line
+	// Do not change this line
 	printSecond()
 	f.follower <- struct{}{}
 
