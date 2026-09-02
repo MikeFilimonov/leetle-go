@@ -35,7 +35,7 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 | 6 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](./hashmaps/medium/medium-hashmaps.go) | 🟡 Medium | $O(1)$ | $O(1)$ |
 | 7 | [Print in order](https://leetcode.com/problems/print-in-order/) | [Go](./concurrency/easy/easy-concurrency.go) | 🟢 Easy | $O(1)$ | $O(1)$ |
 | 8 | [Building H2O](https://leetcode.com/problems/building-h2o/) | [Go](./concurrency/medium/medium-concurrency.go) | 🟡 Medium | $O(1)$ | $O(1)$ |
-| 9 | [Longest common prefix](https://leetcode.com/problems/longest-common-prefix/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(N)$ | $O(N)$ |
+| 9 | [Longest common prefix](https://leetcode.com/problems/longest-common-prefix/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(N)$ | $O(1)$ |
 ## 📚 Resources & Patterns
 
 
