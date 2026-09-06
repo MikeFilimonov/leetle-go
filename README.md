@@ -1,6 +1,6 @@
 # 👨‍💻 LeetCode Solutions
 
-![LeetCode Status](https://img.shields.io/badge/Solved-9%2F1000-brightgreen.svg)
+![LeetCode Status](https://img.shields.io/badge/Solved-10%2F1000-brightgreen.svg)
 ![Language](https://img.shields.io/badge/Language-Golang-00ADD8.svg)
 
 My solutions to LeetCode problems, categorized by topics and difficulty, with time and space complexity analysis.
@@ -9,10 +9,10 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 
 | Difficulty | Total Solved |
 | :--- | :--- |
-| 🟢 Easy | 5 |
+| 🟢 Easy | 6 |
 | 🟡 Medium | 4 |
 | 🔴 Hard | 0 |
-| **Total** | **9** |
+| **Total** | **10** |
 
 ## 🗂️ Table of Contents
 * [Array](#array)
@@ -29,13 +29,15 @@ My solutions to LeetCode problems, categorized by topics and difficulty, with ti
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | [Two sum](https://leetcode.com/problems/two-sum/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(n^2)$ | $O(1)$ |
 | 2 | [Container with most water](https://leetcode.com/problems/container-with-most-water/) | [Go](./arrays/medium/medium-arrays.go) | 🟡 Medium | $O(n)$ | $O(1)$ |
-| 3 | [Roman to int](https://leetcode.com/problems/roman-to-integer/) | [Go](./strings/easy/easy-strings.go) | 🟢 Easy | $O(1)$ | $O(1)$ |
+| 3 | [Roman to int](https://leetcode.com/problems/roman-to-integer/) | [Go](./strings/easy/easy-strings.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
 | 4 | [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Go](./strings/medium/medium-strings.go) | 🟡 Medium | $O(n)$ | $O(n)$ |
 | 5 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [Go](./hashmaps/easy/easy-hashmaps.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
-| 6 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](./hashmaps/medium/medium-hashmaps.go) | 🟡 Medium | $O(1)$ | $O(1)$ |
+| 6 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](./hashmaps/medium/medium-hashmaps.go) | 🟡 Medium | $O(n)$ | $O(1)$ |
 | 7 | [Print in order](https://leetcode.com/problems/print-in-order/) | [Go](./concurrency/easy/easy-concurrency.go) | 🟢 Easy | $O(1)$ | $O(1)$ |
 | 8 | [Building H2O](https://leetcode.com/problems/building-h2o/) | [Go](./concurrency/medium/medium-concurrency.go) | 🟡 Medium | $O(1)$ | $O(1)$ |
-| 9 | [Longest common prefix](https://leetcode.com/problems/longest-common-prefix/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(N)$ | $O(1)$ |
+| 9 | [Longest common prefix](https://leetcode.com/problems/longest-common-prefix/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(n)$ | $O(1)$ |
+| 10 | [Contains duplicate](https://leetcode.com/problems/contains-duplicate/) | [Go](./arrays/easy/easy-arrays.go) | 🟢 Easy | $O(n)$ | $O(n)$ |
+
 ## 📚 Resources & Patterns
 
 

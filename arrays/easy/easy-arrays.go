@@ -56,3 +56,18 @@ func LongestCommonPrefix(strs []string) string {
 	return shorty
 
 }
+
+func ContainsDuplicate(nums []int) bool {
+
+	cloneBuster := make(map[int]struct{})
+	for _, v := range nums {
+
+		if _, found := cloneBuster[v]; found {
+			return true
+		}
+		cloneBuster[v] = struct{}{}
+	}
+
+	return false
+
+}
