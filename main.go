@@ -39,6 +39,10 @@ func easyRunner() {
 
 	hasCycle := easyHashmaps.FloydCycleDetection(&node)
 	fmt.Printf(defaultTemplate, input, hasCycle)
+
+	dupes := []int{1, 8, 5, 9}
+	containsDuplicates := easyArrays.ContainsDuplicate(dupes)
+	fmt.Printf(defaultTemplate, input, containsDuplicates)
 }
 
 func mediumRunner() {
